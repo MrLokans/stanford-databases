@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF8" ?>
+<!DOCTYPE Bookstore SYSTEM "valid-sample.dtd" >
+<Bookstore>
+    <Magazine Month="january" Year="2017">
+        <Title>Psychology Today</Title>
+    </Magazine>
+    
+    <Book ISBN="978-0262033848" Price="67" Edition="3rd">
+        <Title>Introduction to Algorithms</Title>
+        <Authors>
+            <Author>
+                <Not_First_Name>Thomas</Not_First_Name>
+                <Last_Name>Cormen</Last_Name>
+            </Author>
+            <Author>
+                <First_Name>Charles</First_Name>
+                <Last_Name>Leiserson</Last_Name>
+            </Author>
+        </Authors>
+        <Remarks></Remarks>
+    </Book>
+
+    <Book ISBN="978-1848000698" Price="72" Edition="2nd">
+        <Title>The Algorithm Design Manual</Title>
+        <Authors>
+            <Author>
+                <First_Name>Steven</First_Name>
+                <Last_Name>Skiena</Last_Name>
+            </Author>
+        </Authors>
+    </Book>
+
+</Bookstore>
